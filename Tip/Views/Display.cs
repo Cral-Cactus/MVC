@@ -19,7 +19,7 @@ namespace TipApp.Views
         public void WritingData()
         {
             Console.WriteLine($"bill amount: {Bill}");
-            Console.WriteLine($"tip amount: {Tip}");
+            Console.WriteLine($"tip percentage: {Tip}");
             Console.WriteLine($"total amount: {Total}");
         }
     }

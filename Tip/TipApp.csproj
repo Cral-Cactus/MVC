@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\TipCalculatorController.cs" />
+    <Compile Include="Controllers\TipController.cs" />
     <Compile Include="Models\Tip.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

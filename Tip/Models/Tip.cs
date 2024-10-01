@@ -16,18 +16,32 @@ namespace TipApp.Models
         public double Percentage
         {
             get { return percentage; }
-            set { percentage = value; }
+            set 
+            { 
+                if (value > 1) {
+                    percentage = value / 100;
+                }
+                else
+                {
+                    percentage = value;
+                }
+            }
+        }
+
+        public double CalculateTip()
+        {
+            return Percentage * SumOrder;
         }
 
         public double CalculateTotal()
         {
-            return sumOrder + (percentage * sumOrder);
+            return sumOrder + CalculateTip();
         }
 
         public Tip(double sumOrder, double percentage)
         {
-            this.sumOrder = sumOrder;
-            this.percentage = percentage;
+            this.SumOrder = sumOrder;
+            this.Percentage = percentage;
         }
     }
 }

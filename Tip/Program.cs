@@ -7,7 +7,7 @@ namespace TipApp
     {
         static void Main()
         {
-            TipController tipCalculatorController = new TipController();
+            TipController tipController = new TipController();
         }
     }
 }
