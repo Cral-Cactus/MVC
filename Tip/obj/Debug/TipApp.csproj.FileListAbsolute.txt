@@ -1,0 +1,7 @@
+C:\Users\vojdn\source\repos\MVC\Tip\bin\Debug\Tip.exe.config
+C:\Users\vojdn\source\repos\MVC\Tip\bin\Debug\Tip.exe
+C:\Users\vojdn\source\repos\MVC\Tip\bin\Debug\Tip.pdb
+C:\Users\vojdn\source\repos\MVC\Tip\obj\Debug\TipApp.csproj.AssemblyReference.cache
+C:\Users\vojdn\source\repos\MVC\Tip\obj\Debug\TipApp.csproj.CoreCompileInputs.cache
+C:\Users\vojdn\source\repos\MVC\Tip\obj\Debug\Tip.exe
+C:\Users\vojdn\source\repos\MVC\Tip\obj\Debug\Tip.pdb
