@@ -9,33 +9,33 @@ namespace TipApp.Models
 
         public double SumOrder
         {
-            get { return sumOrder; }
-            set { sumOrder = value; }
+            get { return this.sumOrder; }
+            set { this.sumOrder = value; }
         }
 
         public double Percentage
         {
-            get { return percentage; }
+            get { return this.percentage; }
             set 
             { 
                 if (value > 1) {
-                    percentage = value / 100;
+                    this.percentage = value / 100;
                 }
                 else
                 {
-                    percentage = value;
+                    this.percentage = value;
                 }
             }
         }
 
         public double CalculateTip()
         {
-            return Percentage * SumOrder;
+            return this.Percentage * this.SumOrder;
         }
 
         public double CalculateTotal()
         {
-            return sumOrder + CalculateTip();
+            return this.sumOrder + CalculateTip();
         }
 
         public Tip(double sumOrder, double percentage)
