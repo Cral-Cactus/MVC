@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipApp", "Tip\TipApp.csproj", "{730079BE-088C-4A93-8C4A-75EE804F8342}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicNumbers", "MagicNumbers\MagicNumbers.csproj", "{37EAC3EC-C316-4347-ACFD-81C8C525DCB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{730079BE-088C-4A93-8C4A-75EE804F8342}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{730079BE-088C-4A93-8C4A-75EE804F8342}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{730079BE-088C-4A93-8C4A-75EE804F8342}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37EAC3EC-C316-4347-ACFD-81C8C525DCB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37EAC3EC-C316-4347-ACFD-81C8C525DCB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37EAC3EC-C316-4347-ACFD-81C8C525DCB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37EAC3EC-C316-4347-ACFD-81C8C525DCB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
