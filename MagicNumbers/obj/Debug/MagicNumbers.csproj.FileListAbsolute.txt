@@ -5,3 +5,5 @@ C:\Users\vojdn\source\repos\MVC\MagicNumbers\obj\Debug\MagicNumbers.csproj.Assem
 C:\Users\vojdn\source\repos\MVC\MagicNumbers\obj\Debug\MagicNumbers.csproj.CoreCompileInputs.cache
 C:\Users\vojdn\source\repos\MVC\MagicNumbers\obj\Debug\MagicNumbers.exe
 C:\Users\vojdn\source\repos\MVC\MagicNumbers\obj\Debug\MagicNumbers.pdb
+C:\Users\vojdn\source\repos\MVC\MagicNumbers\obj\Debug\MagicNumbers.Views.MagicNumberForm.resources
+C:\Users\vojdn\source\repos\MVC\MagicNumbers\obj\Debug\MagicNumbers.csproj.GenerateResource.cache

@@ -1,5 +1,6 @@
 ﻿using MagicNumbers.Models;
 using MagicNumbers.Views;
+using System;
 
 namespace MagicNumbers.Controllers
 {
@@ -7,16 +8,25 @@ namespace MagicNumbers.Controllers
     {
         MagicNumber magicNumber;
         Display display;
+        private readonly Action<string> displayAction;
 
-        public MagicNumberController()
+        public MagicNumberController(bool useConsole = true)
         {
-            display = new Display();
+            display = new Display(useConsole);
 
-            display.InputNumber();
+            if (useConsole)
+            {
+                display.InputNumber();
+                magicNumber = new MagicNumber(display.MagicNumber);
+                magicNumber.FindMagicNumbers(display.DisplayMagicNumber);
+            }
+        }
 
-            magicNumber = new MagicNumber(display.MagicNumber);
-
-            magicNumber.FindMagicNumbers(display.DisplayMagicNumber);
+        public MagicNumberController(int magicNumber, Action<string> displayAction)
+        {
+            this.magicNumber = new MagicNumber(magicNumber);
+            this.displayAction = displayAction;
+            this.magicNumber.FindMagicNumbers(displayAction);
         }
     }
 }

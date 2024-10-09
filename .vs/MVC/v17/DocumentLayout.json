@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\vojdn\\source\\repos\\MVC\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{37EAC3EC-C316-4347-ACFD-81C8C525DCB4}|MagicNumbers\\MagicNumbers.csproj|C:\\Users\\vojdn\\source\\repos\\MVC\\magicnumbers\\models\\magicnumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37EAC3EC-C316-4347-ACFD-81C8C525DCB4}|MagicNumbers\\MagicNumbers.csproj|solutionrelative:magicnumbers\\models\\magicnumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37EAC3EC-C316-4347-ACFD-81C8C525DCB4}|MagicNumbers\\MagicNumbers.csproj|c:\\users\\vojdn\\source\\repos\\mvc\\magicnumbers\\controllers\\magicnumbercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37EAC3EC-C316-4347-ACFD-81C8C525DCB4}|MagicNumbers\\MagicNumbers.csproj|solutionrelative:magicnumbers\\controllers\\magicnumbercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37EAC3EC-C316-4347-ACFD-81C8C525DCB4}|MagicNumbers\\MagicNumbers.csproj|C:\\Users\\vojdn\\source\\repos\\MVC\\magicnumbers\\views\\display.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37EAC3EC-C316-4347-ACFD-81C8C525DCB4}|MagicNumbers\\MagicNumbers.csproj|solutionrelative:magicnumbers\\views\\display.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37EAC3EC-C316-4347-ACFD-81C8C525DCB4}|MagicNumbers\\MagicNumbers.csproj|c:\\users\\vojdn\\source\\repos\\mvc\\magicnumbers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37EAC3EC-C316-4347-ACFD-81C8C525DCB4}|MagicNumbers\\MagicNumbers.csproj|solutionrelative:magicnumbers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,58 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{df72777a-9fad-4a96-a35f-866efd0a1ce4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\vojdn\\source\\repos\\MVC\\MagicNumbers\\Program.cs",
-              "RelativeDocumentMoniker": "MagicNumbers\\Program.cs",
-              "ToolTip": "C:\\Users\\vojdn\\source\\repos\\MVC\\MagicNumbers\\Program.cs",
-              "RelativeToolTip": "MagicNumbers\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T13:10:21.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MagicNumberController.cs",
-              "DocumentMoniker": "C:\\Users\\vojdn\\source\\repos\\MVC\\MagicNumbers\\Controllers\\MagicNumberController.cs",
-              "RelativeDocumentMoniker": "MagicNumbers\\Controllers\\MagicNumberController.cs",
-              "ToolTip": "C:\\Users\\vojdn\\source\\repos\\MVC\\MagicNumbers\\Controllers\\MagicNumberController.cs",
-              "RelativeToolTip": "MagicNumbers\\Controllers\\MagicNumberController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T12:50:42.444Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Display.cs",
-              "DocumentMoniker": "C:\\Users\\vojdn\\source\\repos\\MVC\\MagicNumbers\\Views\\Display.cs",
-              "RelativeDocumentMoniker": "MagicNumbers\\Views\\Display.cs",
-              "ToolTip": "C:\\Users\\vojdn\\source\\repos\\MVC\\MagicNumbers\\Views\\Display.cs",
-              "RelativeToolTip": "MagicNumbers\\Views\\Display.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T12:50:01.941Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MagicNumber.cs",
-              "DocumentMoniker": "C:\\Users\\vojdn\\source\\repos\\MVC\\MagicNumbers\\Models\\MagicNumber.cs",
-              "RelativeDocumentMoniker": "MagicNumbers\\Models\\MagicNumber.cs",
-              "ToolTip": "C:\\Users\\vojdn\\source\\repos\\MVC\\MagicNumbers\\Models\\MagicNumber.cs",
-              "RelativeToolTip": "MagicNumbers\\Models\\MagicNumber.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAkwDAAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T12:49:08.931Z",
-              "EditorCaption": ""
             }
           ]
         }
