@@ -5,6 +5,7 @@ namespace MagicNumbers.Models
     public class MagicNumber
     {
         private int number;
+        private string output;
 
         public int Number
         {
@@ -19,6 +20,12 @@ namespace MagicNumbers.Models
             }
         }
 
+        public string Output
+        {
+            get { return this.output; }
+            set { this.output = value; }
+        }
+
         public MagicNumber(int number)
         {
             this.Number = number;
@@ -29,7 +36,7 @@ namespace MagicNumbers.Models
             return i * b * c * d * e * f == this.Number;
         }
 
-        public void FindMagicNumbers(Action<string> displayMagicNumber)
+        public void FindMagicNumbers()
         {
             for (int i = 1; i <= 9; i++)
             {
@@ -45,7 +52,7 @@ namespace MagicNumbers.Models
                                 {
                                     if (IsMagicNumber(i, b, c, d, e, f))
                                     {
-                                        displayMagicNumber($"{i}{b}{c}{d}{e}{f}");
+                                        this.Output += $"{i}{b}{c}{d}{e}{f} ";
                                     }
                                 }
                             }

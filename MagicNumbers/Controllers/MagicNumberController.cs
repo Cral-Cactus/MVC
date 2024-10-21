@@ -6,27 +6,35 @@ namespace MagicNumbers.Controllers
 {
     public class MagicNumberController
     {
-        MagicNumber magicNumber;
-        Display display;
-        private readonly Action<string> displayAction;
+        private MagicNumber magicNumber;
+        private Display display;
+        private DisplayWinForms displayWinForms;
 
-        public MagicNumberController(bool useConsole = true)
+        public MagicNumberController(bool useConsole)
         {
-            display = new Display(useConsole);
-
+            display = new Display { IsConsole = useConsole };
             if (useConsole)
             {
                 display.InputNumber();
-                magicNumber = new MagicNumber(display.MagicNumber);
-                magicNumber.FindMagicNumbers(display.DisplayMagicNumber);
+                ProcessMagicNumber(display.MagicNumber);
             }
         }
 
-        public MagicNumberController(int magicNumber, Action<string> displayAction)
+        public void ProcessMagicNumber(int magicNumberInput)
         {
-            this.magicNumber = new MagicNumber(magicNumber);
-            this.displayAction = displayAction;
-            this.magicNumber.FindMagicNumbers(displayAction);
+            magicNumber = new MagicNumber(magicNumberInput);
+            magicNumber.FindMagicNumbers();
+            display.Output = magicNumber.Output;
+
+            if (display.IsConsole)
+            {
+                display.DisplayMagicNumber();
+            }
+        }
+
+        public void SetOutputForWinForms(MagicNumberForm form)
+        {
+            form.DisplayMagicNumber(magicNumber.Output);
         }
     }
 }

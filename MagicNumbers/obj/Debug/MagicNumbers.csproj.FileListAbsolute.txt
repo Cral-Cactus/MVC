@@ -7,3 +7,12 @@ C:\Users\vojdn\source\repos\MVC\MagicNumbers\obj\Debug\MagicNumbers.exe
 C:\Users\vojdn\source\repos\MVC\MagicNumbers\obj\Debug\MagicNumbers.pdb
 C:\Users\vojdn\source\repos\MVC\MagicNumbers\obj\Debug\MagicNumbers.Views.MagicNumberForm.resources
 C:\Users\vojdn\source\repos\MVC\MagicNumbers\obj\Debug\MagicNumbers.csproj.GenerateResource.cache
+D:\aaa\testt\MVC\MagicNumbers\bin\Debug\MagicNumbers.exe.config
+D:\aaa\testt\MVC\MagicNumbers\bin\Debug\MagicNumbers.exe
+D:\aaa\testt\MVC\MagicNumbers\bin\Debug\MagicNumbers.pdb
+D:\aaa\testt\MVC\MagicNumbers\obj\Debug\MagicNumbers.csproj.AssemblyReference.cache
+D:\aaa\testt\MVC\MagicNumbers\obj\Debug\MagicNumbers.Views.MagicNumberForm.resources
+D:\aaa\testt\MVC\MagicNumbers\obj\Debug\MagicNumbers.csproj.GenerateResource.cache
+D:\aaa\testt\MVC\MagicNumbers\obj\Debug\MagicNumbers.csproj.CoreCompileInputs.cache
+D:\aaa\testt\MVC\MagicNumbers\obj\Debug\MagicNumbers.exe
+D:\aaa\testt\MVC\MagicNumbers\obj\Debug\MagicNumbers.pdb

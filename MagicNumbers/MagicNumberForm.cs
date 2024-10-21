@@ -11,6 +11,7 @@ namespace MagicNumbers.Views
         public MagicNumberForm()
         {
             InitializeComponent();
+            magicNumberController = new MagicNumberController(useConsole: false);
         }
 
         private void btnSubmit_Click(object sender, EventArgs e)
@@ -18,7 +19,8 @@ namespace MagicNumbers.Views
             if (int.TryParse(txtInput.Text, out int magicNumber))
             {
                 txtOutput.Clear();
-                magicNumberController = new MagicNumberController(magicNumber, DisplayMagicNumber);
+                magicNumberController.ProcessMagicNumber(magicNumber);
+                magicNumberController.SetOutputForWinForms(this);
             }
             else
             {
@@ -26,9 +28,9 @@ namespace MagicNumbers.Views
             }
         }
 
-        private void DisplayMagicNumber(string number)
+        public void DisplayMagicNumber(string output)
         {
-            txtOutput.Invoke(new Action(() => txtOutput.AppendText(number + " ")));
+            txtOutput.AppendText(output);
         }
     }
 }

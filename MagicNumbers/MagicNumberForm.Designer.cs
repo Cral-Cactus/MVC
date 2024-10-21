@@ -5,7 +5,7 @@
         private System.ComponentModel.IContainer components = null;
         private System.Windows.Forms.TextBox txtInput;
         private System.Windows.Forms.Button btnSubmit;
-        private System.Windows.Forms.TextBox txtOutput;
+        public System.Windows.Forms.TextBox txtOutput;
 
         protected override void Dispose(bool disposing)
         {

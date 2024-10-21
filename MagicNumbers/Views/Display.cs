@@ -5,37 +5,23 @@ namespace MagicNumbers.Views
     public class Display
     {
         public int MagicNumber { get; set; }
-        public string Output { get; set; }
-        private bool useConsole;
-
-        public Display(bool useConsole = true)
-        {
-            this.useConsole = useConsole;
-        }
+        public string Output { get; set; } = string.Empty;
+        public bool IsConsole { get; set; } = true;
 
         public void InputNumber()
         {
-            if (this.useConsole)
+            if (IsConsole)
             {
                 Console.WriteLine("Please enter a number:");
-                string input = Console.ReadLine();
-
-                if (int.TryParse(input, out int magicNumber))
-                {
-                    MagicNumber = magicNumber;
-                }
-                else
-                {
-                    throw new ArgumentException("Invalid input. Please enter a number.");
-                }
+                MagicNumber = int.Parse(Console.ReadLine());
             }
         }
 
-        public void DisplayMagicNumber(string number)
+        public virtual void DisplayMagicNumber()
         {
-            if (this.useConsole)
+            if (IsConsole)
             {
-                Console.Write($"{number} ");
+                Console.WriteLine(Output);
             }
         }
     }
